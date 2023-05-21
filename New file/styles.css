@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#search-container,
+#filter-container {
+  margin-bottom: 10px;
+}
+
+#json-container {
+  margin-top: 20px;
+}
+
+.json-key {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.json-string {
+  color: #1abc9c;
+}
+
+.json-number {
+  color: #f39c12;
+}
+
+.json-boolean {
+  color: #3498db;
+}
+
+.json-null {
+  color: #95a5a6;
+}
+
+.json-object {
+  margin-left: 20px;
+}
+
+.json-array {
+  margin-left: 20px;
+}

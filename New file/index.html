@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>filter/search functionality</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="search-container">
+    <label for="search-input">Search by Name:</label>
+    <input type="text" id="search-input">
+  </div>
+  <div id="filter-container">
+    <label for="filter-select">Filter by Skills:</label>
+    <div id="checkbox-container">
+      <label><input type="checkbox" class="skill-checkbox" value="SQL">SQL</label>
+      <label><input type="checkbox" class="skill-checkbox" value="Javascript">Javascript</label>
+      <label><input type="checkbox" class="skill-checkbox" value="Python">Python</label>
+      <label><input type="checkbox" class="skill-checkbox" value="HTML">HTML</label>
+      <label><input type="checkbox" class="skill-checkbox" value="CSS">CSS</label>
+      <label><input type="checkbox" class="skill-checkbox" value="Photoshop">Photoshop</label>
+      <label><input type="checkbox" class="skill-checkbox" value="Manual Testing">Manual Testing</label>
+      <label><input type="checkbox" class="skill-checkbox" value="Java">Java</label>
+    </div>
+  </div>
+  <div id="json-container">
+    <table id="results">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Designation</th>
+          <th>Skills</th>
+        </tr>
+      </thead>
+      <tbody id="results-body"></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
